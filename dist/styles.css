@@ -1,0 +1,25 @@
+html, body { 
+    height: 100%;
+    margin: 0px; 
+    background-color: white;
+    font-size: 14pt;
+}
+
+.loader {
+    width: 32rem;
+    height: 32rem;
+    background-image: url('./loader.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    text-indent: -9999px;
+}
+
+#noJavascriptWarning {
+    color: #ed1c24;
+    font-size: 3em; 
+    display: none;  /* this attribute will be overridden as necessary in header.inc */
+    text-align: center;
+    max-width: 70%;
+    margin: 100px auto; 
+}
